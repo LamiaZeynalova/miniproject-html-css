@@ -1,0 +1,55 @@
+.herobutton {
+    width: max-content;
+    padding: 20px 25px;
+    background-color:rgb(99, 198, 183);
+    border: solid 2px transparent;
+    color:white;
+    cursor: pointer;
+    &:hover{
+        background-color: transparent;
+        border:solid 2px white;
+    }
+
+}
+.buttonred{  
+          padding: 17px 31px;
+          width: max-content;  
+          transition: all 0.3s;
+          background-color: rgb(249, 72, 72);
+          border: solid 2px transparent;
+          cursor: pointer;
+          
+          a{
+            color: $c-light;
+            font-weight: 500;
+            text-decoration: none;
+            
+          }
+          
+            
+          &:hover{
+            background-color: white;
+            border: solid 2px rgb(249, 72, 72);
+            a{color: rgb(249, 72, 72);}
+          }
+        }
+
+.buttonwhite{
+            background-color:$c-light;
+            width: max-content;
+            padding: 17px 23px ;
+            transition: all 0.3s;
+            border: solid 2px rgb(249, 72, 72);
+            a{font-weight: 500;
+                color:rgb(249, 72, 72);
+                text-decoration: none;
+
+            }
+            &:hover{
+            background-color: rgb(249, 72, 72);
+            a{
+            color:white}
+            
+        }
+
+}

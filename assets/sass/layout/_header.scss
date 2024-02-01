@@ -1,0 +1,126 @@
+header{
+    position:fixed;
+    z-index: 999;
+    width: 100%;
+
+.nav{
+    background-color: rgb(38, 59, 92);
+    color: $c-light;
+    padding: 5px 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px
+    }
+.logo img{
+    width: 150px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap:50px
+
+}
+.nav_list {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap:40px;
+    text-decoration: none;
+    list-style: none;
+    font-size: 14px;
+    color: white;
+    padding-top:10px;
+}
+p { span { border-bottom: 1px dashed white;
+}
+}
+.Buton1 {
+color: white;
+background-color: red;
+padding: 20px 20px;
+border-radius: 3px;
+border: none;
+
+&:hover {
+   border: 1px solid $c-light;
+   background-color: transparent;   }
+
+.Buton1 i {
+  color: white;
+  }
+
+}}
+
+.nav_list_item a{
+  color:white;
+  text-decoration: none;
+  font-size: 16px;
+}
+.phone{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 50px;
+    text-align: center;
+    padding-top: 10px;
+
+}
+.menu{
+    display: none;
+    z-index: 999;
+    width:98%;
+    text-align: end;
+    background-color: gray;
+    position:relative;
+    padding: 25px 10px;
+    
+ .menu button{
+    color: white;
+    font-size: 14px;
+    border-radius: 7px;
+    background-color: rgb(27, 26, 26);
+    position: absolute;
+    top: 11px;
+    right: 12px;
+
+ }
+  }
+
+  @media only screen and (min-width: 992px) {
+        .nav { display: flex;
+            justify-content: space-between;
+            gap: 5px;}
+        .nav_list{
+         font-size: 15px;
+         gap: 10px;
+            }
+        .phone{ justify-content: center
+        ;
+        
+        }
+    }
+
+
+@media screen and (max-width: 992px) {
+   .logo .nav_list{
+      display: none !important;
+    }
+  
+    .menu{
+      display: block !important;
+    }
+  }
+
+    @media  screen and (max-width:768px) {
+        nav {
+            .phone {
+                button {
+                    display: none;
+                }
+            }
+        }
+    }
+   
+
+
